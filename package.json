@@ -1,0 +1,43 @@
+{
+  "name": "zenda-app-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/native-stack": "^7.0.0",
+    "@react-navigation/bottom-tabs": "^7.0.0",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.6.0",
+    "date-fns": "^4.1.0",
+    "expo": "~54.0.0",
+    "expo-status-bar": "latest",
+    "expo-secure-store": "latest",
+    "nativewind": "^2.0.11",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.78.0",
+    "react-native-web": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-svg": "latest",
+    "lucide-react-native": "^0.453.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4",
+    "zustand": "^5.0.0",
+    "@expo/metro-runtime": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "tailwindcss": "3.3.2",
+    "typescript": "^5.3.3"
+  },
+  "private": true,
+  "packageManager": "pnpm@10.28.1+sha512.7d7dbbca9e99447b7c3bf7a73286afaaf6be99251eb9498baefa7d406892f67b879adb3a1d7e687fc4ccc1a388c7175fbaae567a26ab44d1067b54fcb0d6a316"
+}
