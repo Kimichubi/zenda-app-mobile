@@ -21,6 +21,7 @@ import { LoginScreen } from "./src/screens/LoginScreen";
 import { DashboardScreen } from "./src/screens/DashboardScreen";
 import { AgendaScreen } from "./src/screens/AgendaScreen";
 import { PaymentsScreen } from "./src/screens/PaymentsScreen";
+import { ClientsScreen } from "./src/screens/ClientsScreen";
 import { useAuthStore } from "./src/hooks/use-auth-store";
 import { api } from "./src/services/api";
 
@@ -82,7 +83,7 @@ function TabNavigator() {
       />
       <Tab.Screen 
         name="Clientes" 
-        component={ScreenPlaceholder} 
+        component={ClientsScreen} 
         options={{
           tabBarLabel: "CLIENTES",
           tabBarIcon: ({ color, size }) => <Users size={22} color={color} />,
